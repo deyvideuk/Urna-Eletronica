@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Urna Eleitoral - Uninassau</title>
-	<link rel="stylesheet" type="text/css" href="votacao.css">
+	<link rel="stylesheet" type="text/css" href="cadastroStyle.css">
 </head>
 
 <body>
