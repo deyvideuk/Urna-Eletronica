@@ -6,43 +6,38 @@
 	<link rel="stylesheet" type="text/css" href="cadastroStyle.css">
 </head>
 
-<body>
+     <body>
 
-<form>
+          <div class="nassau">
+               <div class="area-nassau">
+                    <img src="../images/uninassau-logo.png" alt="Logo da Uninasau">
+               </div>
+          </div>
 
-     <p> Faça seu cadastro para Presidente: </p>
+          <form>
 
-     <label for= "Nome do candidato"> Nome<input type="text" maxlength="50" id= "Nome" /> </label>
+               <p> Faça seu cadastro para Presidente: </p>
 
-     <label for= "Número da candidatura"> Número da candidatura<input type="Número da candidatura" id="Número da candidatura" maxlength="2"
-     </label> 
+               <label for= "Nome do candidato"> Nome<input type="text" maxlength="50" id= "Nome" /> </label>
 
-     <label class="picture" tabindex="0">
+               <label for= "Número da candidatura"> Número da candidatura<input type="Número da candidatura" id="Número da candidatura" maxlength="2"
+               </label> 
 
-	<input type="file" accept="image/*" id= "picture__input"/>
+               <label class="picture" tabindex="0">
 
-	<span class="picture__image"></span> > </label>
+               <input type="file" accept="image/*" id= "picture__input"/>
+
+               <span class="picture__image"></span> > </label>
 
 
-     <button> Cadastrar</button> 
- 
+               <button>Cadastrar</button> 
+          
 
-</form>
+          </form>
        
-    
+          <div class="btn-cadastro">
+            <a href="../index.php">Cancelar Cadastro</a>
+          </div>
 
-</body>
-
-
-	
-
-</label>
-
-   
-    
-</head>
-
-
-    
-    
+     </body> 
 </html>

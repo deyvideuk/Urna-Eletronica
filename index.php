@@ -58,7 +58,9 @@
             </div>
         </div>
 
-
+        <div class="btn-cadastro">
+            <a href="/pagCadastro/cadastro.php">Cadastro</a>
+        </div>
 
 
     <script src="Index.js"></script> <!-- Link para o JavaScript-->
