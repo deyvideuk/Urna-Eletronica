@@ -1,3 +1,8 @@
+<?php
+    include("conexao.php");
+    include("pegarCandidatos.php");
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -29,7 +34,7 @@
 
             <div class="container">
                 <div class="area-logo">
-                    <img src="images/urna.png" alt="">
+                    <img src="images/cartaz.jpg" alt="">
                 </div>
 
                 
@@ -59,7 +64,7 @@
         </div>
 
         <div class="btn-cadastro">
-            <a href="/pagCadastro/cadastro.php">Cadastro</a>
+            <a href="/pagCadastro/cadastro.php">Seja um Presidente!</a>
         </div>
 
 
